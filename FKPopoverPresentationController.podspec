@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "KFPopoverPresentationController"
+  s.name         = "FKPopoverPresentationController"
   s.version      = "1.0.3"
   s.summary      = "popover presentation controller like 'UIPopoverPresentationController'."
 
