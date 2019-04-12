@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "popover presentation controller like 'UIPopoverPresentationController'"
+s.description  = "popover presentation controller like 'UIPopoverPresentationController' (I'm longer than summary)"
 
   s.homepage     = "https://github.com/ForAllKid/PopoverPresentationController"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    s.source_files  = "FKPopoverPresentationController/FKPopoverPresentationController/Classes/*.{h,m}"
+    s.source_files  = "FKPopoverPresentationController/Classes/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
