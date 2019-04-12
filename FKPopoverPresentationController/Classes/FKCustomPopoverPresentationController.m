@@ -1,14 +1,14 @@
 //
-//  CustomPopoverPresentationController.m
-//  CustomPopoverPresentationController
+//  FKCustomPopoverPresentationController.m
+//  FKCustomPopoverPresentationController
 //
 //  Created by 周宏辉 on 2019/4/4.
 //  Copyright © 2019 Wefint. All rights reserved.
 //
 
-#import "CustomPopoverPresentationController.h"
+#import "FKCustomPopoverPresentationController.h"
 
-@interface CustomPopoverPresentationController ()<UIViewControllerAnimatedTransitioning>
+@interface FKCustomPopoverPresentationController ()<UIViewControllerAnimatedTransitioning>
 
 @property (nonatomic, strong) UIView *presentedWrapperView;
 @property (nonatomic, strong) UIControl *dimmingView;
@@ -18,7 +18,7 @@
 
 
 
-@implementation CustomPopoverPresentationController
+@implementation FKCustomPopoverPresentationController
 
 
 

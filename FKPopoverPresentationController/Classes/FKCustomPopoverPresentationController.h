@@ -1,6 +1,6 @@
 //
-//  CustomPopoverPresentationController.h
-//  CustomPopoverPresentationController
+//  FKCustomPopoverPresentationController.h
+//  FKCustomPopoverPresentationController
 //
 //  Created by 周宏辉 on 2019/4/4.
 //  Copyright © 2019 Wefint. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CustomPopoverPresentationController : UIPresentationController<UIViewControllerTransitioningDelegate>
+@interface FKCustomPopoverPresentationController : UIPresentationController<UIViewControllerTransitioningDelegate>
 
 @property (nonatomic) CGRect sourceRect;
 
